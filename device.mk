@@ -306,6 +306,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-rtti
 
+# NoCutout
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # PixelLiveWallpaper
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
