@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/cepheus/device.mk)
 
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/magma/config/common_full_phone.mk)
-
+MAGMA_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
